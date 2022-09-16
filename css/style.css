@@ -992,8 +992,8 @@ header {
   color: #fff;
   border: 2px solid #42032C; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #d49af9 !important;
-    border-color: #d49af9 !important; }
+    background: #42032C !important;
+    border-color: #42032C !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #4d4d4d;
@@ -1267,19 +1267,31 @@ input[type="text"] {
 }
 .colorlib-social-icons ul li {
   border: 1px solid #42032C;
+  color: #42032C;
     width: 30px;
     height: 30px;
     border-radius: 5px;
+     font-size: 15px;
+     transition: 0.5s; 
 }
 .colorlib-social-icons ul li a {
-      display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-.colorlib-social-icons i {
+/*.colorlib-social-icons i {
   font-size: 15px;
-  color: #42032C; }
+  color: #42032C; 
+}*/
+.colorlib-social-icons ul li:hover i {
+  color: #fff;
+}
+.colorlib-social-icons ul li:hover {
+  background: #42032C;
+  color: #fff;
+  transform: translateY(-5px); 
+}
 
 #footer {
   padding: 8em 0;
