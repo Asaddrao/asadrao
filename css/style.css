@@ -1269,7 +1269,7 @@ input[type="text"] {
   border: 1px solid #42032C;
     width: 30px;
     height: 30px;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 .colorlib-social-icons ul li a {
       display: flex;
