@@ -32,7 +32,8 @@ body.menu-show {
   width: 100%;
 }
 :root {
-  --primary: #42032c;
+  --primary: #a70505;
+  /* --primary: #42032c; */
 }
 
 #colorlib-wrapper {
@@ -1859,6 +1860,7 @@ input[type="text"] {
 .copyright p span {
   color: #fff;
   font-weight: 600;
+  font-size: 16px;
 }
 .homeProBtn {
   background-color: var(--primary);
@@ -1937,7 +1939,7 @@ input[type="text"] {
   .masonryImg:hover a:before {
     opacity: 1;
   }
-  
+ 
   .masonryImg:first-child {
     grid-column: span 1;
     grid-row: span 1;
@@ -2002,10 +2004,7 @@ input[type="text"] {
     grid-column: span 2;
     grid-row: span 2;
   }
-  .masonryImg:nth-child(17) {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
+
   @media screen and (max-width: 768px) {
     .masonryMainBox {
       grid-template-columns: repeat(1, minmax(10px, 1fr));
